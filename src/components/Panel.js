@@ -6,7 +6,7 @@ function Panel({ children, className, ...rest }) {
     className
   );
 
-  console.log(children);
+  // console.log(children);
 
   return (
     <div {...rest} className={finalClassNames}>
